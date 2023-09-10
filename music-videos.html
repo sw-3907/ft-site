@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+		<style>
+			.video-container {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+				padding-top: 56.25%; /* 16:9 Aspect Ratio */
+			}
+
+			.video-container iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+		<title>Fat Tony Videos</title>
+	</head>
+
+	<body class="bg-neutral-200">
+		<!-- Header -->
+		<header class="bg-neutral-200 text-black py-4 px-4 md:px-0">
+			<div class="container mx-auto flex justify-between items-center">
+				<a href="/index.html"
+					><div class="text-2xl font-semibold pl-4">
+						Anthony Obi<br />
+						aka Fat Tony
+					</div></a
+				>
+				<nav class="hidden md:flex space-x-4">
+					<a href="/about.html" class="hover:text-gray-400">Bio</a>
+					<a href="/music-videos.html" class="hover:text-gray-400">Videos</a>
+					<a href="/discography.html" class="hover:text-gray-400">Discography</a>
+					<a href="#" class="hover:text-gray-400">Media</a>
+					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:text-gray-400">Merch</a>
+					<a href="#" class="hover:text-gray-400">Tour</a>
+					<a href="#" class="hover:text-gray-400">Contact</a>
+				</nav>
+				<div class="md:hidden pr-4">
+					<button id="menu-toggle" class="text-black focus:outline-none">
+						<svg
+							class="h-6 w-6"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<!-- Mobile Menu -->
+		<div id="mobile-menu" class="md:hidden hidden bg-black text-white">
+			<div class="py-2 space-y-4">
+				<a href="#" class="block px-4 py-2 hover:bg-gray-700">About</a>
+				<a href="/music-videos.html" class="block px-4 py-2 hover:bg-gray-700">Videos</a>
+				<a href="/discography.html" class="block px-4 py-2 hover:bg-gray-700">Discography</a>
+				<a href="#" class="block px-4 py-2 hover:bg-gray-700">Media</a>
+				<a href="#" class="block px-4 py-2 hover:bg-gray-700">Tour</a>
+				<a href="#" class="block px-4 py-2 hover:bg-gray-700">Merch</a>
+				<a href="#" class="block px-4 py-2 hover:bg-gray-700">Contact</a>
+			</div>
+		</div>
+
+		<div class="grid grid-cols-1 px-4 mx-auto mx-10 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/MhJI1WLRkNM"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/peYO-b4jC0E"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-mdedia; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/f8wMCaAZNcA"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/le5GBmRPWNs"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/gxfeAYU69ew"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/-prgjekcnjE"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/_6TdJdfSkCM"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/fVRx_G4MXTU"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/PNANKcLuvlE"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/qFxf04NyDKs"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/pwg0T_iK7a0"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/bA3Kz-KUD98"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/UAn_w7xFVT4"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/fEB7qVcX48c"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/wgZspt534DY"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/_1DkAoPSmXY"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/tjvHSdD0rbo"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/BSMD4G3szw8"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+		</div>
+		<!-- Start of Footer -->
+		<footer class="bg-black text-white w-full py-10">
+			<!-- Main Footer Container -->
+			<div class="container mx-auto px-4 md:px-6 lg:px-8">
+				<!-- Navigation Links -->
+				<div class="grid grid-cols-2 md:grid-cols-6 gap-4 mb-10">
+					<a href="/about.html" class="hover:underline text-center">ABOUT</a>
+					<a href="#" class="hover:underline text-center">CONTACT</a>
+					<a href="/music-videos.html" class="hover:underline text-center md:col-start-3">VIDEOS</a>
+					<a href="/discography.html" class="hover:underline text-center">DISCOGRAPHY</a>
+					<a href="#" class="hover:underline text-center md:col-start-5">MEDIA</a>
+					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:underline text-center">MERCH</a>
+				</div>
+
+				<div class="flex justify-center space-x-6 mb-20">
+					<a href="#" class="text-xl hover:text-gray-300" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="text-xl hover:text-gray-300" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+					<a href="#" class="text-xl hover:text-gray-300" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="text-xl hover:text-gray-300" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+				</div>
+
+				<div class="text-center mb-8 font-light">&copy; Copyright 2023 All Rights Reserved</div>
+
+				<div class="text-center text-sm mb-4 text-opactiy-50 font-light">
+					<a href="http://stephenwilson.info" class="underline hover:text-gray-300">Site by Stephen</a>
+				</div>
+			</div>
+		</footer>
+		<!-- End of Footer -->
+
+		<script>
+			// Toggle mobile menu
+			const menuToggle = document.getElementById('menu-toggle');
+			const mobileMenu = document.getElementById('mobile-menu');
+
+			menuToggle.addEventListener('click', () => {
+				mobileMenu.classList.toggle('hidden');
+			});
+		</script>
+	</body>
+</html>
