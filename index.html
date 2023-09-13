@@ -8,29 +8,37 @@
 		<meta name="keywords" content="Fat Tony, Music, Entertainment, Discography" />
 		<meta name="author" content="Fat Tony" />
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
-		<link
-			href="https://fonts.googleapirounded-lg200;300;400;500;600display=swap"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapirounded-lg200;300;400;500;600display=swap" rel="stylesheet" />
 		<title>FAT-TONY</title>
 	</head>
 	<body class="bg-neutral-200">
-		<!-- Header -->
-		<!-- <header class="bg-neutral-200 text-black py-4 px-4 md:px-0">
-			<div class="container mx-auto flex justify-between items-center">
-                <img src="images/FT_Blank.png" alt="Fat tony logo" class="scale-75"/>
-				<nav class="hidden md:flex space-x-4">
-					<a href="/about.html" class="hover:text-gray-400">About</a>
-					<a href="/music-videos.html" class="hover:text-gray-400">Videos</a>
-					<a href="/discography.html" class="hover:text-gray-400">Discography</a>
-                    <a href="/tour.html" class="hover:text-gray-400">Tour</a>
-					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:text-gray-400">Store</a>
-					<a href="/contact.html" class="hover:text-gray-400">Contact</a>
-                    <a href="https://foundmemag.com/" class="hover:text-gray-400">Found Me</a>
+		<header class="bg-neutral-200 text-black py-4 md:px-0">
+			<div class="container mx-auto px-10 flex flex-row justify-between md:justify-around items-center">
+				<!-- Left Nav -->
+				<nav class="hidden md:flex justify-end space-x-4">
+					<a href="tour.html" class="hover:text-gray-400 hover:underline">Tour</a>
+					<a href="music-videos.html" class="hover:text-gray-400 hover:underline">Videos</a>
+					<a href="discography.html" class="hover:text-gray-400 hover:underline">Discography</a>
 				</nav>
-				<div class="md:hidden pr-4">
+
+				<!-- Logo in the middle -->
+				<div class="flex justify-center">
+					<a href="about.html">
+						<img src="images/FT_Blank_2.png" alt="Fat tony logo" class="w-40 md:w-48" />
+					</a>
+				</div>
+
+				<!-- Right Nav -->
+				<nav class="hidden md:flex justify-start space-x-4">
+					<a href="https://foundmemag.com/" class="hover:text-gray-400 hover:underline">Found Me</a>
+					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:text-gray-400 hover:underline">Store</a>
+					<a href="contact.html" class="hover:text-gray-400 hover:underline">Contact</a>
+				</nav>
+
+				<!-- Mobile Menu Icon -->
+				<div class="md:hidden col-span-3 flex justify-end pr-4">
 					<button id="menu-toggle" class="text-black focus:outline-none">
 						<svg
 							class="h-6 w-6"
@@ -39,83 +47,50 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 						>
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
 						</svg>
 					</button>
 				</div>
 			</div>
-		</header> -->
+		</header>
 
-        <header class="bg-neutral-200 text-black py-4 md:px-0">
-            <div class="container mx-auto px-10 flex flex-row justify-between md:justify-around items-center">
-                <!-- Left Nav -->
-                <nav class="hidden md:flex justify-end space-x-4">
-                    <a href="tour.html" class="hover:text-gray-400 hover:underline">Tour</a>
-                    <a href="music-videos.html" class="hover:text-gray-400 hover:underline">Videos</a>
-                    <a href="discography.html" class="hover:text-gray-400 hover:underline">Discography</a>
-                </nav>
-                
-                <!-- Logo in the middle -->
-                <div class="flex justify-center">
-                    <a href="about.html">
-                    <img src="images/FT_Blank_2.png" alt="Fat tony logo" class="w-40 md:w-48"/>
-                    </a>
-                </div>
-                
-                <!-- Right Nav -->
-                <nav class="hidden md:flex justify-start space-x-4">
-                    <a href="https://foundmemag.com/" class="hover:text-gray-400 hover:underline">Found Me</a>
-                    <a href="https://fattonyrap.bandcamp.com/merch" class="hover:text-gray-400 hover:underline">Store</a>
-                    <a href="contact.html" class="hover:text-gray-400 hover:underline">Contact</a>
-                </nav>
-                
-                <!-- Mobile Menu Icon -->
-                <div class="md:hidden col-span-3 flex justify-end pr-4">
-                    <button id="menu-toggle" class="text-black focus:outline-none">
-                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </header>
-        
-
-<!-- Mobile Menu -->
-<div id="mobile-menu" class="md:hidden hidden bg-black text-white">
-    <div class="py-2 space-y-4">
-        <a href="about.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">About</a>
-        <a href="music-videos.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Videos</a>
-        <a href="discography.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Discography</a>
-        <a href="tour.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Tour</a>
-        <a href="https://fattonyrap.bandcamp.com/merch" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Store</a>
-        <a href="contact.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Contact</a>
-        <a href="https://foundmemag.com/" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Found Me</a>
-    </div>
-</div>
+		<!-- Mobile Menu -->
+		<div id="mobile-menu" class="md:hidden hidden bg-black text-white">
+			<div class="py-2 space-y-4">
+				<a href="about.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">About</a>
+				<a href="music-videos.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Videos</a>
+				<a href="discography.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Discography</a>
+				<a href="tour.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Tour</a>
+				<a href="https://fattonyrap.bandcamp.com/merch" class="block px-4 py-2 hover:bg-gray-700 hover:underline"
+					>Store</a
+				>
+				<a href="contact.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Contact</a>
+				<a href="https://foundmemag.com/" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Found Me</a>
+			</div>
+		</div>
 
 		<!-- Body -->
 		<div class="p-10 pb-10 pt-24 max-w-3xl mx-auto text-left text-black md:p-20 md:text-2xl">
 			<div class="border-b border-black mb-10">
-            <div class="shadow-2xl ">
-				<img
-					src="images/fattony&taydex_iwmabitde_creditmichaeltyronedelaney_lead3.jpg"
-					alt="photo of Anthony Obi"
-					class="mx-auto rounded-lg border-dashed border-2 border-black scale-50 hover:opacity-80"
-				/>
+				<div class="shadow-2xl">
+					<a href="about.html">
+						<img
+							src="images/fattony&taydex_iwmabitde_creditmichaeltyronedelaney_lead3.jpg"
+							alt="photo of Anthony Obi"
+							class="mx-auto rounded-lg border-dashed border-2 border-black scale-50 hover:opacity-80"
+						/>
+					</a>
+				</div>
 			</div>
-        </div>
-        <div class="leading-relaxed py-10 border-t border-black"></div>
+			<div class="leading-relaxed py-10 border-t border-black"></div>
 
-
-<div class="pt-10 py-4">
+			<div class="pt-10 py-4">
 				<span
 					class="text-transparent bg-clip-text text-3xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 md:text-6xl"
 					>I Will Make a Baby<br />
 					in This Damn Economy
 				</span>
-        </div>
-			
+			</div>
 
 			<div class="flex flex-col items-start pb-10">
 				<img src="images/Make-a-Baby.jpg" alt="I will make a baby cover art" class="hover:opacity-80" />
@@ -124,357 +99,408 @@
 					<div class="flex flex-row gap-x-8">
 						<a href="https://open.spotify.com/album/6T4UuaQ9gd6COoKXOtQqt8?si=WKx_fIcpQMaG4ypy3XFyDQ">
 							<button
-								class="text-black active:bg-stone-600 font-bold uppercase text-sm lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear active:shadow-inner" 
-                                type="button"
+								class="text-black active:bg-stone-600 font-bold uppercase text-sm lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear active:shadow-inner"
+								type="button"
 							>
 								LISTEN
 							</button>
 						</a>
 						<a href="https://fattonyrap.bandcamp.com/album/i-will-make-a-baby-in-this-damn-economy">
 							<button
-								class="text-black active:bg-stone-600 font-bold uppercase text-sm lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear active:shadow-inner" 				
-                                type="button"
+								class="text-black active:bg-stone-600 font-bold uppercase text-sm lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear active:shadow-inner"
+								type="button"
 							>
 								BUY
 							</button>
 						</a>
-                       
 					</div>
 				</div>
 			</div>
-<!-- Top Horizontal Line Divider -->
-<div class="w-full border-t border-black mt-8 mb-8"></div>
-<!-- recent releases -->
-        <div class="my-2 relative pt-10">
-            <p class="text-3xl font-bold pb-4">Recent Releases</p>
-        
-            <!-- Horizontal scroll container -->
-    <p class="pb-10">Listen to the music I've been making.</p>
-    <!-- Horizontal scroll container -->
-    <div class="flex flex-row gap-8 overflow-x-scroll m-4 no-scrollbar pb-4">
-        <a href="https://fattonyrap.bandcamp.com/album/i-will-make-a-baby-in-this-damn-economy">
-            <img src="images/make-a-baby-scroll.jpg" alt="I will make a baby in this damn economy cover art" 
-            class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-         </a>
-        <a href="https://fattonyrap.bandcamp.com/track/im-thinking-bout-moving">
-            <img src="images/v600_FatTony_I_mThinking_BoutMoving_Cover.jpg" alt="I'm thinking bout moving cover art
-            " class="shadow-xl rounded-xl max-w-xs mx-auto ">
-        </a>
-        <a href="https://open.spotify.com/track/6oCKClvKdKSiU1TAdZUQIy?si=8df7032be5874052">
-            <img src="images/artwork-440x440.jpg" alt="Fat Tony – (Hey Baby) Que Paso” feat. Paul Wall"            
-            class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-         </a>
-        <a href="https://fattonyrap.bandcamp.com/album/exotica">
-            <img src="images/exotica.jpg" alt="exoctica cover art" 
-            class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-         </a>
-       
-         <a href="https://fattonyrap.bandcamp.com/album/wake-up">
-            <img src="images/WakeUp.jpg" alt="wake up cover art"            
-            class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-         </a>    
-    </div>
+			<!-- Top Horizontal Line Divider -->
+			<div class="w-full border-t border-black mt-8 mb-8"></div>
+			<!-- recent releases -->
+			<div class="my-2 relative pt-10">
+				<p class="text-3xl font-bold pb-4">Recent Releases</p>
 
-        
-            <!-- Video Embed Section -->
-            <div class="my-10 relative flex flex-col items-center">
-            <!-- Top Divider -->
-            <div class="w-full border-t border-black mt-8 mb-10"></div>
-    
-            <!-- Video Embed Container -->
-            <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/MhJI1WLRkNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-              <a href="/music-videos.html">
-                <button
-                 class="text-black active:bg-stone-600 font-bold uppercase text-sm mt-6 lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear" type="button"
-                >
-                MORE VIDEOS
-            </a>
-                </button>
+				<!-- Horizontal scroll container -->
+				<p class="pb-10">Listen to the music I've been making.</p>
+				<!-- Horizontal scroll container -->
+				<div class="flex flex-row gap-8 overflow-x-scroll m-4 no-scrollbar pb-4">
+					<a href="https://fattonyrap.bandcamp.com/album/i-will-make-a-baby-in-this-damn-economy">
+						<img
+							src="images/make-a-baby-scroll.jpg"
+							alt="I will make a baby in this damn economy cover art"
+							class="shadow-xl rounded-xl max-w-xs mx-auto"
+						/>
+					</a>
+					<a href="https://fattonyrap.bandcamp.com/track/im-thinking-bout-moving">
+						<img
+							src="images/v600_FatTony_I_mThinking_BoutMoving_Cover.jpg"
+							alt="I'm thinking bout moving cover art
+            "
+							class="shadow-xl rounded-xl max-w-xs mx-auto"
+						/>
+					</a>
+					<a href="https://open.spotify.com/track/6oCKClvKdKSiU1TAdZUQIy?si=8df7032be5874052">
+						<img
+							src="images/artwork-440x440.jpg"
+							alt="Fat Tony – (Hey Baby) Que Paso” feat. Paul Wall"
+							class="shadow-xl rounded-xl max-w-xs mx-auto"
+						/>
+					</a>
+					<a href="https://fattonyrap.bandcamp.com/album/exotica">
+						<img src="images/exotica.jpg" alt="exoctica cover art" class="shadow-xl rounded-xl max-w-xs mx-auto" />
+					</a>
 
-            <!-- Video Bottom Divider -->
-            <div class="w-full border-t border-black mt-10 mb-8"></div>
-            </div>
+					<a href="https://fattonyrap.bandcamp.com/album/wake-up">
+						<img src="images/WakeUp.jpg" alt="wake up cover art" class="shadow-xl rounded-xl max-w-xs mx-auto" />
+					</a>
+				</div>
 
-          
+				<!-- Video Embed Section -->
+				<div class="my-10 relative flex flex-col items-center">
+					<!-- Top Divider -->
+					<div class="w-full border-t border-black mt-8 mb-10"></div>
 
-<!-- current obsessions -->
-<div class="my-2 relative pt-10">
-    <p class="text-3xl font-bold pb-4">Trending Now</p>
-    <p class="pb-10">What I'm currently watching, reading, and listening to.</p>
-    <!-- Horizontal scroll container -->
-    <div class="flex flex-row gap-8 overflow-x-scroll no-scrollbar pb-4">
-        <a href="https://www.penguinrandomhouse.com/books/36698/hit-men-by-fredric-dannen/">
-            <img src="images/c-o/c-o-4.jpg" alt="Fredric Dannen – Hit Men: Power Brokers and Fast Money Inside the Music Business (1990)" 
-            class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-         </a>
-        <a href="https://youtu.be/dJr4JLv3oFs?si=jCxUIO7UupSL0iSU">
-            <img src="images/c-o/c-o-1.png" alt="Noochie’s Live From The Front Porch Presents: Backyard Band (2023)
-            " class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-        </a>
-        <a href="https://www.poetryfoundation.org/poets/henry-dumas">
-            <img src="images/c-o/c-o-2.png" alt="Henry Dumas – Knees of a Natural Man: The Selected Poetry of Henry Dumas (1989)"            
-            class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-         </a>
-        <a href="https://www.mixcloud.com/TheFantastix/gary-chandler-wjlb-1999-summer-radio-mix/">
-            <img src="images/c-o/c-o-3.png" alt="Gary Chandler – WJLB Summer Radio Mix (1999)" 
-            class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-         </a>
-       
-         <a href="https://www.thedreamcastjunkyard.co.uk/2023/05/rent-hero-no-1-has-been-translated-into.html">
-            <img src="images/c-o/c-o-5.png" alt="Rent-A-Hero No. 1 (Sega Dreamcast, 2000)"            
-            class="shadow-xl rounded-xl  max-w-xs mx-auto ">
-         </a>    
-    </div>
-</div>
+					<!-- Video Embed Container -->
+					<div class="video-container">
+						<iframe
+							src="https://www.youtube.com/embed/MhJI1WLRkNM"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen
+						></iframe>
+					</div>
+					<a href="music-videos.html">
+						<button
+							class="text-black active:bg-stone-600 font-bold uppercase text-sm mt-6 lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear"
+							type="button"
+						>
+							MORE VIDEOS
+						</button>
+					</a>
 
-            <!-- Juneteenth tee stack -->
-            <div class="grid my-20 md:grid-cols-2 md:gap-x-10">
-              <img
-			    src="images/Oshiro_7_edit_2_ruqe5c.webp"
-				alt="photo of Anthony Obi"
-				class="mx-auto rounded-lg border-dashed border-2 border-yellow-400 shadow-3xl shadow-inner scale-75 mb-8 hover:opacity-80"
-			/>
+					<!-- Video Bottom Divider -->
+					<div class="w-full border-t border-black mt-10 mb-8"></div>
+				</div>
 
-              <img
-				src="images/Oshiro_7_edit_1_ozrr9q.webp"
-				alt="photo of Anthony Obi"
-				class="mx-auto rounded-lg border-dashed border-2 border-yellow-400 shadow-3xl shadow-inner scale-75 hover:opacity-80"
-			/>
-        </div>
-            <!-- end Juneteenth tee stack -->
+				<!-- current obsessions -->
+				<div class="my-2 relative pt-10">
+					<p class="text-3xl font-bold pb-4">Trending Now</p>
+					<p class="pb-10">What I'm currently watching, reading, and listening to.</p>
+					<!-- Horizontal scroll container -->
+					<div class="flex flex-row gap-8 overflow-x-scroll no-scrollbar pb-4">
+						<a href="https://www.penguinrandomhouse.com/books/36698/hit-men-by-fredric-dannen/">
+							<img
+								src="images/c-o/c-o-4.jpg"
+								alt="Fredric Dannen – Hit Men: Power Brokers and Fast Money Inside the Music Business (1990)"
+								class="shadow-xl rounded-xl max-w-xs mx-auto"
+							/>
+						</a>
+						<a href="https://youtu.be/dJr4JLv3oFs?si=jCxUIO7UupSL0iSU">
+							<img
+								src="images/c-o/c-o-1.png"
+								alt="Noochie’s Live From The Front Porch Presents: Backyard Band (2023)
+            "
+								class="shadow-xl rounded-xl max-w-xs mx-auto"
+							/>
+						</a>
+						<a href="https://www.poetryfoundation.org/poets/henry-dumas">
+							<img
+								src="images/c-o/c-o-2.png"
+								alt="Henry Dumas – Knees of a Natural Man: The Selected Poetry of Henry Dumas (1989)"
+								class="shadow-xl rounded-xl max-w-xs mx-auto"
+							/>
+						</a>
+						<a href="https://www.mixcloud.com/TheFantastix/gary-chandler-wjlb-1999-summer-radio-mix/">
+							<img
+								src="images/c-o/c-o-3.png"
+								alt="Gary Chandler – WJLB Summer Radio Mix (1999)"
+								class="shadow-xl rounded-xl max-w-xs mx-auto"
+							/>
+						</a>
 
-            <!-- Start of Tour Dates Section -->
-<div class="my-10">
-    <!-- Top Horizontal Line Divider -->
-    <div class="w-full border-t border-black mt-8 mb-8"></div>
+						<a href="https://www.thedreamcastjunkyard.co.uk/2023/05/rent-hero-no-1-has-been-translated-into.html">
+							<img
+								src="images/c-o/c-o-5.png"
+								alt="Rent-A-Hero No. 1 (Sega Dreamcast, 2000)"
+								class="shadow-xl rounded-xl max-w-xs mx-auto"
+							/>
+						</a>
+					</div>
+				</div>
 
-    <!-- Tour Dates Header -->
-    <div class="flex justify-center items-center mb-6">
-        <h2 class="text-3xl font-bold">Tour Dates</h2>
-    </div>
+				<!-- Juneteenth tee stack -->
+				<div class="grid my-20 md:grid-cols-2 md:gap-x-10">
+					<img
+						src="images/Oshiro_7_edit_2_ruqe5c.webp"
+						alt="photo of Anthony Obi"
+						class="mx-auto rounded-lg border-dashed border-2 border-yellow-400 shadow-3xl shadow-inner scale-75 mb-8 hover:opacity-80"
+					/>
 
-    <!-- Tour Embed Container -->
-    <div class="mx-auto w-full md:w-3/4 lg:w-2/3 mb-8 h- overflow-y-scroll border rounded-lg" style="height: 700px;">
-        <script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
-        <a
-        class="bit-widget-initializer"
-        data-artist-name="id_229026"
-        data-background-color="#ffffff"
-        data-separator-color="#DDDDDD"
-        data-text-color="#424242"
-        data-font="Helvetica"
-        data-auto-style="true"
-        data-display-local-dates="true"
-        data-local-dates-position="tab"
-        data-display-past-dates="true"
-        data-display-details="false"
-        data-display-lineup="false"
-        data-display-start-time="true"
-        data-social-share-icon="true"
-        data-display-limit="all"
-        data-date-format="MMM. D, YYYY"
-        data-date-orientation="horizontal"
-        data-date-border-color="#08C3BA"
-        data-date-border-width="1px"
-        data-date-border-radius="10px"
-        data-event-ticket-cta-size="medium"
-        data-event-ticket-text="TICKETS"
-        data-event-ticket-icon="false"
-        data-event-ticket-cta-text-color="#FFFFFF"
-        data-event-ticket-cta-bg-color="rgba(0,0,0,1)"
-        data-event-ticket-cta-border-color="#08C3BA"
-        data-event-ticket-cta-border-width="0px"
-        data-event-ticket-cta-border-radius="4px"
-        data-sold-out-button-text-color="#FFFFFF"
-        data-sold-out-button-background-color="#9B9B9B"
-        data-sold-out-button-border-color="#08C3BA"
-        data-sold-out-button-clickable="true"
-        data-event-rsvp-position="left"
-        data-event-rsvp-cta-size="medium"
-        data-event-rsvp-text="SET REMINDER"
-        data-event-rsvp-icon="false"
-        data-event-rsvp-cta-text-color="rgba(0,0,0,1)"
-        data-event-rsvp-cta-bg-color="#FFFFFF"
-        data-event-rsvp-cta-border-color="rgba(208,2,27,1)"
-        data-event-rsvp-cta-border-width="1px"
-        data-event-rsvp-cta-border-radius="4px"
-        data-follow-section-position="top"
-        data-follow-section-alignment="center"
-        data-follow-section-header-text="Get updates on Fat Tony shows."
-        data-follow-section-cta-size="medium"
-        data-follow-section-cta-text="FOLLOW"
-        data-follow-section-cta-icon="true"
-        data-follow-section-cta-text-color="#FFFFFF"
-        data-follow-section-cta-bg-color="rgba(208,2,27,1)"
-        data-follow-section-cta-border-color="rgba(0,0,0,1)"
-        data-follow-section-cta-border-width="0px"
-        data-follow-section-cta-border-radius="4px"
-        data-play-my-city-position="bottom"
-        data-play-my-city-alignment="Center"
-        data-play-my-city-header-text="Don’t see a show near you?"
-        data-play-my-city-cta-size="medium"
-        data-play-my-city-cta-text="REQUEST A SHOW"
-        data-play-my-city-cta-icon="true"
-        data-play-my-city-cta-text-color="#FFFFFF"
-        data-play-my-city-cta-bg-color="rgba(74,144,226,1)"
-        data-play-my-city-cta-border-color="rgba(0,0,0,1)"
-        data-play-my-city-cta-border-width="0px"
-        data-play-my-city-cta-border-radius="4px"
-        data-language="en"
-        data-widget-width=""
-        data-div-id=""
-        data-app-id=""
-        data-affil-code="undefined"
-        data-bit-logo-position="bottomRight"
-        data-bit-logo-color="#CCCCCC"
-    ></a>
-    </div>
+					<img
+						src="images/Oshiro_7_edit_1_ozrr9q.webp"
+						alt="photo of Anthony Obi"
+						class="mx-auto rounded-lg border-dashed border-2 border-yellow-400 shadow-3xl shadow-inner scale-75 hover:opacity-80"
+					/>
+				</div>
+				<!-- end Juneteenth tee stack -->
 
-    <!-- Bottom Horizontal Line Divider -->
-    <div class="w-full border-t border-black mt-8 mb-8"></div>
-</div>
-<!-- End of Tour Dates Section -->
+				<!-- Start of Tour Dates Section -->
+				<div class="my-10">
+					<!-- Top Horizontal Line Divider -->
+					<div class="w-full border-t border-black mt-8 mb-8"></div>
 
+					<!-- Tour Dates Header -->
+					<div class="flex justify-center items-center mb-6">
+						<h2 class="text-3xl font-bold">Tour Dates</h2>
+					</div>
 
-            <!-- Scrollbar Styling - Only works in some browsers (e.g., Webkit) -->
-            <style>
-                .no-scrollbar::-webkit-scrollbar {
-                    height: 8px;
-                }
-                
-                .no-scrollbar::-webkit-scrollbar-thumb {
-                    background-color: #a78bfa;
-                    border-radius: 4px;
-                }
-                
-                .no-scrollbar::-webkit-scrollbar-thumb:hover {
-                    background-color: #a78bfa;
-                }
+					<!-- Tour Embed Container -->
+					<div
+						class="mx-auto w-full md:w-3/4 lg:w-2/3 mb-8 h- overflow-y-scroll border rounded-lg"
+						style="height: 700px"
+					>
+						<script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
+						<a
+							class="bit-widget-initializer"
+							data-artist-name="id_229026"
+							data-background-color="#ffffff"
+							data-separator-color="#DDDDDD"
+							data-text-color="#424242"
+							data-font="Helvetica"
+							data-auto-style="true"
+							data-display-local-dates="true"
+							data-local-dates-position="tab"
+							data-display-past-dates="true"
+							data-display-details="false"
+							data-display-lineup="false"
+							data-display-start-time="true"
+							data-social-share-icon="true"
+							data-display-limit="all"
+							data-date-format="MMM. D, YYYY"
+							data-date-orientation="horizontal"
+							data-date-border-color="#08C3BA"
+							data-date-border-width="1px"
+							data-date-border-radius="10px"
+							data-event-ticket-cta-size="medium"
+							data-event-ticket-text="TICKETS"
+							data-event-ticket-icon="false"
+							data-event-ticket-cta-text-color="#FFFFFF"
+							data-event-ticket-cta-bg-color="rgba(0,0,0,1)"
+							data-event-ticket-cta-border-color="#08C3BA"
+							data-event-ticket-cta-border-width="0px"
+							data-event-ticket-cta-border-radius="4px"
+							data-sold-out-button-text-color="#FFFFFF"
+							data-sold-out-button-background-color="#9B9B9B"
+							data-sold-out-button-border-color="#08C3BA"
+							data-sold-out-button-clickable="true"
+							data-event-rsvp-position="left"
+							data-event-rsvp-cta-size="medium"
+							data-event-rsvp-text="SET REMINDER"
+							data-event-rsvp-icon="false"
+							data-event-rsvp-cta-text-color="rgba(0,0,0,1)"
+							data-event-rsvp-cta-bg-color="#FFFFFF"
+							data-event-rsvp-cta-border-color="rgba(208,2,27,1)"
+							data-event-rsvp-cta-border-width="1px"
+							data-event-rsvp-cta-border-radius="4px"
+							data-follow-section-position="top"
+							data-follow-section-alignment="center"
+							data-follow-section-header-text="Get updates on Fat Tony shows."
+							data-follow-section-cta-size="medium"
+							data-follow-section-cta-text="FOLLOW"
+							data-follow-section-cta-icon="true"
+							data-follow-section-cta-text-color="#FFFFFF"
+							data-follow-section-cta-bg-color="rgba(208,2,27,1)"
+							data-follow-section-cta-border-color="rgba(0,0,0,1)"
+							data-follow-section-cta-border-width="0px"
+							data-follow-section-cta-border-radius="4px"
+							data-play-my-city-position="bottom"
+							data-play-my-city-alignment="Center"
+							data-play-my-city-header-text="Don’t see a show near you?"
+							data-play-my-city-cta-size="medium"
+							data-play-my-city-cta-text="REQUEST A SHOW"
+							data-play-my-city-cta-icon="true"
+							data-play-my-city-cta-text-color="#FFFFFF"
+							data-play-my-city-cta-bg-color="rgba(74,144,226,1)"
+							data-play-my-city-cta-border-color="rgba(0,0,0,1)"
+							data-play-my-city-cta-border-width="0px"
+							data-play-my-city-cta-border-radius="4px"
+							data-language="en"
+							data-widget-width=""
+							data-div-id=""
+							data-app-id=""
+							data-affil-code="undefined"
+							data-bit-logo-position="bottomRight"
+							data-bit-logo-color="#CCCCCC"
+						></a>
+					</div>
 
-                    /* Video Embed Styles */
-    .video-container {
-        position: relative;
-        width: 100%;
-        max-width: 960px;  /* Maximum width for video. Adjust as needed */
-        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-        overflow: hidden;
-    }
+					<!-- Bottom Horizontal Line Divider -->
+					<div class="w-full border-t border-black mt-8 mb-8"></div>
+				</div>
+				<!-- End of Tour Dates Section -->
 
-    .video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+				<!-- Scrollbar Styling - Only works in some browsers (e.g., Webkit) -->
+				<style>
+					.no-scrollbar::-webkit-scrollbar {
+						height: 8px;
+					}
 
-    
-  
-            </style>
+					.no-scrollbar::-webkit-scrollbar-thumb {
+						background-color: #a78bfa;
+						border-radius: 4px;
+					}
 
-    <!-- Mailchimp embed -->
-	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
-   
-   <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+					.no-scrollbar::-webkit-scrollbar-thumb:hover {
+						background-color: #a78bfa;
+					}
 
-   <div id="mc_embed_signup" class="bg-violet-300 p-8 rounded-md shadow-lg--">
-       <form
-           action="https://carparkrecords.us5.list-manage.com/subscribe/post?u=0fc9d2d6db16c2b1a6e38ecfc&amp;id=de3ff399c4"
-           method="post"
-           id="mc-embedded-subscribe-form"
-           name="mc-embedded-subscribe-form"
-           class="validate"
-           target="_blank"
-           novalidate=""
-       >
-           <div id="mc_embed_signup_scroll">
-               <h2 class="text-center leading-normal text-3xl font-bold mb-6">Subscribe to the Fat Tony Newsletter</h2>
-               <div class="text-center mb-4 text-sm text-gray-500"> <span class="text-red-500">*</span> indicates required</div>
-               
-               <div class="mc-field-group mb-4">
-                   <label for="mce-EMAIL" class="block mb-2">Email <span class="text-red-500">*</span> </label>
-                   <input type="email" value="" name="EMAIL" class="required email px-3 py-2 w-full border rounded-md" id="mce-EMAIL" />
-               </div>
-               <div class="mc-field-group mb-4">
-                   <label for="mce-FNAME" class="block mb-2">First Name</label>
-                   <input type="text" value="" name="FNAME" class="px-3 py-2 w-full border rounded-3xl" id="mce-FNAME" />
-               </div>
-               <div class="mc-field-group mb-4">
-                   <label for="mce-LNAME" class="block mb-2">Last Name</label>
-                   <input type="text" value="" name="LNAME" class="px-3 py-2 w-full border rounded-md" id="mce-LNAME" />
-               </div>
-   
-               <div id="mce-responses" class="clear mb-4">
-                   <div class="response" id="mcclee-error-response" style="display: none"></div>
-                   <div class="response" id="mce-success-response" style="display: none"></div>
-               </div>
-   
-               <div style="position: absolute; left: -5000px" aria-hidden="true">
-                   <input type="text" name="b_0fc9d2d6db16c2b1a6e38ecfc_de3ff399c4" tabindex="-1" value="" />
-               </div>
-               <div class="myclear">
-                   <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="text-black active:bg-stone-600 font-bold uppercase text-sm mt-6 lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none cursor-pointer focus:outline-none mr-1 mb-1 ease-linear" />
-               </div>
-           </div>
-       </form>
-   </div>
-   
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-    <script type="text/javascript">
-        (function ($) {
-            window.fnames = new Array();
-            window.ftypes = new Array();
-            fnames[0] = 'EMAIL';
-            ftypes[0] = 'email';
-            fnames[1] = 'FNAME';
-            ftypes[1] = 'text';
-            fnames[2] = 'LNAME';
-            ftypes[2] = 'text';
-            fnames[3] = 'ADDRESS';
-            ftypes[3] = 'address';
-            fnames[4] = 'PHONE';
-            ftypes[4] = 'phone';
-        })(jQuery);
-        var $mcj = jQuery.noConflict(true);
-    </script>
-            </div>
-            </div>
-            <!-- End Body -->
+					/* Video Embed Styles */
+					.video-container {
+						position: relative;
+						width: 100%;
+						max-width: 960px; /* Maximum width for video. Adjust as needed */
+						padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+						overflow: hidden;
+					}
+
+					.video-container iframe {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+					}
+				</style>
+
+				<!-- Mailchimp embed -->
+				<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+
+				<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+
+				<div id="mc_embed_signup" class="bg-violet-300 p-8 rounded-md shadow-lg--">
+					<form
+						action="https://carparkrecords.us5.list-manage.com/subscribe/post?u=0fc9d2d6db16c2b1a6e38ecfc&amp;id=de3ff399c4"
+						method="post"
+						id="mc-embedded-subscribe-form"
+						name="mc-embedded-subscribe-form"
+						class="validate"
+						target="_blank"
+						novalidate=""
+					>
+						<div id="mc_embed_signup_scroll">
+							<h2 class="text-center leading-normal text-3xl font-bold mb-6">Subscribe to the Fat Tony Newsletter</h2>
+							<div class="text-center mb-4 text-sm text-gray-500">
+								<span class="text-red-500">*</span> indicates required
+							</div>
+
+							<div class="mc-field-group mb-4">
+								<label for="mce-EMAIL" class="block mb-2">Email <span class="text-red-500">*</span> </label>
+								<input
+									type="email"
+									value=""
+									name="EMAIL"
+									class="required email px-3 py-2 w-full border rounded-md"
+									id="mce-EMAIL"
+								/>
+							</div>
+							<div class="mc-field-group mb-4">
+								<label for="mce-FNAME" class="block mb-2">First Name</label>
+								<input type="text" value="" name="FNAME" class="px-3 py-2 w-full border rounded-3xl" id="mce-FNAME" />
+							</div>
+							<div class="mc-field-group mb-4">
+								<label for="mce-LNAME" class="block mb-2">Last Name</label>
+								<input type="text" value="" name="LNAME" class="px-3 py-2 w-full border rounded-md" id="mce-LNAME" />
+							</div>
+
+							<div id="mce-responses" class="clear mb-4">
+								<div class="response" id="mcclee-error-response" style="display: none"></div>
+								<div class="response" id="mce-success-response" style="display: none"></div>
+							</div>
+
+							<div style="position: absolute; left: -5000px" aria-hidden="true">
+								<input type="text" name="b_0fc9d2d6db16c2b1a6e38ecfc_de3ff399c4" tabindex="-1" value="" />
+							</div>
+							<div class="myclear">
+								<input
+									type="submit"
+									value="Subscribe"
+									name="subscribe"
+									id="mc-embedded-subscribe"
+									class="text-black active:bg-stone-600 font-bold uppercase text-sm mt-6 lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none cursor-pointer focus:outline-none mr-1 mb-1 ease-linear"
+								/>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+				<script type="text/javascript">
+					(function ($) {
+						window.fnames = new Array();
+						window.ftypes = new Array();
+						fnames[0] = 'EMAIL';
+						ftypes[0] = 'email';
+						fnames[1] = 'FNAME';
+						ftypes[1] = 'text';
+						fnames[2] = 'LNAME';
+						ftypes[2] = 'text';
+						fnames[3] = 'ADDRESS';
+						ftypes[3] = 'address';
+						fnames[4] = 'PHONE';
+						ftypes[4] = 'phone';
+					})(jQuery);
+					var $mcj = jQuery.noConflict(true);
+				</script>
+			</div>
+		</div>
+		<!-- End Body -->
 		<!-- Start of Footer -->
-<footer class="bg-black text-white w-full py-10">
-    <!-- Main Footer Container -->
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <!-- Navigation Links -->
-        <div class="grid grid-cols-2 md:grid-cols-6 gap-4 mb-10">
-            <a href="about.html" class="hover:underline text-center">ABOUT</a>
-            <a href="music-videos.html" class="hover:underline text-center ">VIDEOS</a>
-            <a href="discography.html" class="hover:underline text-center">DISCOGRAPHY</a>
-            <a href="contact.html" class="hover:underline text-center">CONTACT</a>
-			<a href="https://fattonyrap.bandcamp.com/merch" class="hover:underline text-center">STORE</a>
-            <a href="https://foundmemag.com/" class="hover:underline text-center ">FOUND ME</a>
-        </div>
-        
-        <div class="flex justify-center space-x-6 mb-20">
-            <a href="#" class="text-3xl hover:text-gray-300" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-3xl hover:text-gray-300" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-3xl hover:text-gray-300" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-3xl hover:text-gray-300" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-        </div>
+		<footer class="bg-black text-white w-full py-10">
+			<!-- Main Footer Container -->
+			<div class="container mx-auto px-4 md:px-6 lg:px-8">
+				<!-- Navigation Links -->
+				<div class="grid grid-cols-2 md:grid-cols-6 gap-4 mb-10">
+					<a href="about.html" class="hover:underline text-center">ABOUT</a>
+					<a href="music-videos.html" class="hover:underline text-center">VIDEOS</a>
+					<a href="discography.html" class="hover:underline text-center">DISCOGRAPHY</a>
+					<a href="contact.html" class="hover:underline text-center">CONTACT</a>
+					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:underline text-center">STORE</a>
+					<a href="https://foundmemag.com/" class="hover:underline text-center">FOUND ME</a>
+				</div>
 
-        
-        <div class="text-center mb-8 font-light">
-            &copy; Copyright 2023 All Rights Reserved
-        </div>
+				<div class="flex justify-center space-x-6 mb-20">
+					<a href="https://twitter.com/fattonyrap" class="text-3xl hover:text-gray-300" aria-label="Twitter"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a
+						href="https://www.instagram.com/fattonyrap/?hl=en"
+						class="text-3xl hover:text-gray-300"
+						aria-label="Instagram"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a href="https://www.facebook.com/fattonyrap/" class="text-3xl hover:text-gray-300" aria-label="Facebook"
+						><i class="fab fa-facebook-f"></i
+					></a>
+					<a
+						href="https://www.youtube.com/channel/UCN68R7dMG9g40sjqOrcDldA"
+						class="text-3xl hover:text-gray-300"
+						aria-label="YouTube"
+						><i class="fab fa-youtube"></i
+					></a>
+				</div>
 
-        <div class="text-center text-sm mb-4 text-opactiy-50 font-light">
-            <a href="http://stephenwilson.info" class="underline hover:text-gray-300">Site by Stephen</a>
-        </div>
-    </div>
-</footer>
-<!-- End of Footer -->
-		
+				<div class="text-center mb-8 font-light">&copy; Copyright 2023 All Rights Reserved</div>
+
+				<div class="text-center text-sm mb-4 text-opactiy-50 font-light">
+					<a href="http://stephenwilson.info" class="underline hover:text-gray-300">Site by Stephen</a>
+				</div>
+			</div>
+		</footer>
+		<!-- End of Footer -->
+
 		<script>
 			// Toggle mobile menu
 			const menuToggle = document.getElementById('menu-toggle');

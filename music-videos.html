@@ -28,24 +28,31 @@
 
 	<body class="bg-neutral-200">
 		<!-- Header -->
-		<header class="bg-neutral-200 text-black py-4 px-4 md:px-0">
-			<div class="container mx-auto flex justify-between items-center">
-				<a href="/index.html"
-					><div class="text-2xl font-semibold pl-4">
-						Anthony Obi<br />
-						aka Fat Tony
-					</div></a
-				>
-				<nav class="hidden md:flex space-x-4">
-					<a href="/about.html" class="hover:text-gray-400">Bio</a>
-					<a href="/music-videos.html" class="hover:text-gray-400">Videos</a>
-					<a href="/discography.html" class="hover:text-gray-400">Discography</a>
-					<a href="#" class="hover:text-gray-400">Media</a>
-					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:text-gray-400">Merch</a>
-					<a href="#" class="hover:text-gray-400">Tour</a>
-					<a href="#" class="hover:text-gray-400">Contact</a>
+		<header class="bg-neutral-200 text-black py-4 md:px-0">
+			<div class="container mx-auto px-10 flex flex-row justify-between md:justify-around items-center">
+				<!-- Left Nav -->
+				<nav class="hidden md:flex justify-end space-x-4">
+					<a href="tour.html" class="hover:text-gray-400 hover:underline">Tour</a>
+					<a href="music-videos.html" class="hover:text-gray-400 hover:underline">Videos</a>
+					<a href="discography.html" class="hover:text-gray-400 hover:underline">Discography</a>
 				</nav>
-				<div class="md:hidden pr-4">
+
+				<!-- Logo in the middle -->
+				<div class="flex justify-center">
+					<a href="index.html">
+						<img src="images/FT_Blank_2.png" alt="Fat tony logo" class="w-40 md:w-48" />
+					</a>
+				</div>
+
+				<!-- Right Nav -->
+				<nav class="hidden md:flex justify-start space-x-4">
+					<a href="https://foundmemag.com/" class="hover:text-gray-400 hover:underline">Found Me</a>
+					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:text-gray-400 hover:underline">Store</a>
+					<a href="contact.html" class="hover:text-gray-400 hover:underline">Contact</a>
+				</nav>
+
+				<!-- Mobile Menu Icon -->
+				<div class="md:hidden col-span-3 flex justify-end pr-4">
 					<button id="menu-toggle" class="text-black focus:outline-none">
 						<svg
 							class="h-6 w-6"
@@ -54,7 +61,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 						>
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
 						</svg>
 					</button>
 				</div>
@@ -64,16 +71,19 @@
 		<!-- Mobile Menu -->
 		<div id="mobile-menu" class="md:hidden hidden bg-black text-white">
 			<div class="py-2 space-y-4">
-				<a href="#" class="block px-4 py-2 hover:bg-gray-700">About</a>
-				<a href="/music-videos.html" class="block px-4 py-2 hover:bg-gray-700">Videos</a>
-				<a href="/discography.html" class="block px-4 py-2 hover:bg-gray-700">Discography</a>
-				<a href="#" class="block px-4 py-2 hover:bg-gray-700">Media</a>
-				<a href="#" class="block px-4 py-2 hover:bg-gray-700">Tour</a>
-				<a href="#" class="block px-4 py-2 hover:bg-gray-700">Merch</a>
-				<a href="#" class="block px-4 py-2 hover:bg-gray-700">Contact</a>
+				<a href="about.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">About</a>
+				<a href="music-videos.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Videos</a>
+				<a href="discography.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Discography</a>
+				<a href="tour.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Tour</a>
+				<a href="https://fattonyrap.bandcamp.com/merch" class="block px-4 py-2 hover:bg-gray-700 hover:underline"
+					>Store</a
+				>
+				<a href="contact.html" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Contact</a>
+				<a href="https://foundmemag.com/" class="block px-4 py-2 hover:bg-gray-700 hover:underline">Found Me</a>
 			</div>
 		</div>
 
+		<!-- body -->
 		<div class="grid grid-cols-1 px-4 mx-auto mx-10 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
 			<div class="video-container">
 				<iframe
@@ -282,19 +292,33 @@
 			<div class="container mx-auto px-4 md:px-6 lg:px-8">
 				<!-- Navigation Links -->
 				<div class="grid grid-cols-2 md:grid-cols-6 gap-4 mb-10">
-					<a href="/about.html" class="hover:underline text-center">ABOUT</a>
-					<a href="#" class="hover:underline text-center">CONTACT</a>
-					<a href="/music-videos.html" class="hover:underline text-center md:col-start-3">VIDEOS</a>
-					<a href="/discography.html" class="hover:underline text-center">DISCOGRAPHY</a>
-					<a href="#" class="hover:underline text-center md:col-start-5">MEDIA</a>
-					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:underline text-center">MERCH</a>
+					<a href="about.html" class="hover:underline text-center">ABOUT</a>
+					<a href="music-videos.html" class="hover:underline text-center">VIDEOS</a>
+					<a href="discography.html" class="hover:underline text-center">DISCOGRAPHY</a>
+					<a href="contact.html" class="hover:underline text-center">CONTACT</a>
+					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:underline text-center">STORE</a>
+					<a href="https://foundmemag.com/" class="hover:underline text-center">FOUND ME</a>
 				</div>
 
 				<div class="flex justify-center space-x-6 mb-20">
-					<a href="#" class="text-xl hover:text-gray-300" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-					<a href="#" class="text-xl hover:text-gray-300" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-					<a href="#" class="text-xl hover:text-gray-300" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-					<a href="#" class="text-xl hover:text-gray-300" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+					<a href="https://twitter.com/fattonyrap" class="text-3xl hover:text-gray-300" aria-label="Twitter"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a
+						href="https://www.instagram.com/fattonyrap/?hl=en"
+						class="text-3xl hover:text-gray-300"
+						aria-label="Instagram"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a href="https://www.facebook.com/fattonyrap/" class="text-3xl hover:text-gray-300" aria-label="Facebook"
+						><i class="fab fa-facebook-f"></i
+					></a>
+					<a
+						href="https://www.youtube.com/channel/UCN68R7dMG9g40sjqOrcDldA"
+						class="text-3xl hover:text-gray-300"
+						aria-label="YouTube"
+						><i class="fab fa-youtube"></i
+					></a>
 				</div>
 
 				<div class="text-center mb-8 font-light">&copy; Copyright 2023 All Rights Reserved</div>
