@@ -12,12 +12,52 @@
 
 		<link href="https://fonts.googleapirounded-lg200;300;400;500;600display=swap" rel="stylesheet" />
 		<title>FAT-TONY</title>
+		<link rel="shortcut icon" href="images/SABB-Redux-Cover.jpeg" type="image/png" />
+		<!-- Meta Pixel Code -->
+		<script>
+			!(function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s);
+			})(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '1478567732890876');
+			fbq('track', 'PageView');
+		</script>
+		<noscript
+			><img
+				height="1"
+				width="1"
+				style="display: none"
+				src="https://www.facebook.com/tr?id=1478567732890876&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Meta Pixel Code -->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-N83LT1BEZS"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-N83LT1BEZS');
+		</script>
 	</head>
 	<body class="bg-neutral-200">
 		<header class="bg-neutral-200 text-black py-4 md:px-0">
 			<div class="container mx-auto px-10 flex flex-row justify-between md:justify-around items-center">
 				<!-- Left Nav -->
-				<nav class="hidden md:flex justify-end space-x-4">
+				<nav class="hidden text-xl md:flex justify-end space-x-4">
 					<a href="tour.html" class="hover:text-gray-400 hover:underline">Tour</a>
 					<a href="music-videos.html" class="hover:text-gray-400 hover:underline">Videos</a>
 					<a href="discography.html" class="hover:text-gray-400 hover:underline">Discography</a>
@@ -26,12 +66,12 @@
 				<!-- Logo in the middle -->
 				<div class="flex justify-center">
 					<a href="about.html">
-						<img src="images/FT_Blank_2.png" alt="Fat tony logo" class="w-40 md:w-48" />
+						<img src="images/FT_Blank_2.png" alt="Fat tony logo" class="w-40 md:w-60" />
 					</a>
 				</div>
 
 				<!-- Right Nav -->
-				<nav class="hidden md:flex justify-start space-x-4">
+				<nav class="hidden text-xl md:flex justify-start space-x-4">
 					<a href="https://foundmemag.com/" class="hover:text-gray-400 hover:underline">Found Me</a>
 					<a href="https://fattonyrap.bandcamp.com/merch" class="hover:text-gray-400 hover:underline">Store</a>
 					<a href="contact.html" class="hover:text-gray-400 hover:underline">Contact</a>
@@ -83,31 +123,36 @@
 				</div>
 			</div>
 			<div class="leading-relaxed py-10 border-t border-black"></div>
-
+			<!-- 
 			<div class="pt-10 py-4">
 				<span
-					class="text-transparent bg-clip-text text-3xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 md:text-6xl"
-					>I Will Make a Baby<br />
-					in This Damn Economy
+					class="text-transparent bg-clip-text text-3xl font-bold bg-gradient-to-r from-red-500 to-red-900 md:text-6xl"
+					>Smart Ass Black Boy<br />
 				</span>
 			</div>
+			<div class="pt-0 py-4">
+				<span
+					class="text-transparent bg-clip-text text-3xl font-bold bg-gradient-to-r from-yellow-900 to-yellow-700 md:text-6xl"
+					>Redux<br />
+				</span>
+			</div> -->
 
 			<div class="flex flex-col items-start pb-10">
-				<img src="images/Make-a-Baby.jpg" alt="I will make a baby cover art" class="hover:opacity-80" />
+				<img src="images/SABB-Redux-Cover.jpeg" alt="Smart Ass Black Boy Redux Cover Art" class="hover:opacity-80" />
 
 				<div class="mt-6">
 					<div class="flex flex-row gap-x-8">
-						<a href="https://open.spotify.com/album/6T4UuaQ9gd6COoKXOtQqt8?si=WKx_fIcpQMaG4ypy3XFyDQ">
+						<a href="https://fattonyrap.bandcamp.com/album/smart-ass-black-boy-redux">
 							<button
-								class="text-black active:bg-stone-600 font-bold uppercase text-sm lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear active:shadow-inner"
+								class="text-black active:bg-stone-600 font-bold uppercase text-sm lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed-- border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear active:shadow-inner"
 								type="button"
 							>
 								LISTEN
 							</button>
 						</a>
-						<a href="https://fattonyrap.bandcamp.com/album/i-will-make-a-baby-in-this-damn-economy">
+						<a href="https://fattonyrap.bandcamp.com/album/smart-ass-black-boy-redux">
 							<button
-								class="text-black active:bg-stone-600 font-bold uppercase text-sm lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear active:shadow-inner"
+								class="text-black active:bg-stone-600 font-bold uppercase text-sm lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed-- border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear active:shadow-inner"
 								type="button"
 							>
 								BUY
@@ -126,6 +171,14 @@
 				<p class="pb-10">Listen to the music I've been making.</p>
 				<!-- Horizontal scroll container -->
 				<div class="flex flex-row gap-8 overflow-x-scroll m-4 no-scrollbar pb-4">
+					<a href="https://fattonyrap.bandcamp.com/album/smart-ass-black-boy-redux">
+						<img
+							src="images/SABB-Redux-Cover.jpeg"
+							alt="I will make a baby in this damn economy cover art"
+							class="shadow-xl rounded-xl max-w-xs mx-auto"
+						/>
+					</a>
+
 					<a href="https://fattonyrap.bandcamp.com/album/i-will-make-a-baby-in-this-damn-economy">
 						<img
 							src="images/make-a-baby-scroll.jpg"
@@ -174,7 +227,7 @@
 					</div>
 					<a href="music-videos.html">
 						<button
-							class="text-black active:bg-stone-600 font-bold uppercase text-sm mt-6 lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear"
+							class="text-black active:bg-stone-600 font-bold uppercase text-sm mt-6 lg:text-base px-8 py-6 lg:px-10 lg:py-8 rounded-lg border-dashed-- border-2 border-black whitespace-nowrap shadow-md hover:shadow-3xl outline-none focus:outline-none mr-1 mb-1 ease-linear"
 							type="button"
 						>
 							MORE VIDEOS
